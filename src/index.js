@@ -10,7 +10,7 @@ app.use(cors());
 
 //Iniciando o DB
 const url =
-  "mongodb+srv://sandro:40028922@cluster0.ahurx.mongodb.net/Conecta?retryWrites=true&w=majority";
+  "urlDoBanco";
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
 requireDir("./models");
